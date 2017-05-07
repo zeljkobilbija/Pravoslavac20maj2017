@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14A361c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1072" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="dan" destination="9" id="13"/>
+                <outlet property="danasnjiSvetac" destination="23" id="33"/>
+                <outlet property="datumNovi" destination="7" id="14"/>
+                <outlet property="godinaNova" destination="4" id="5"/>
+                <outlet property="godinaStara" destination="10" id="15"/>
+                <outlet property="ikonaSvetca" destination="22" id="40"/>
+                <outlet property="mesecNovi" destination="8" id="16"/>
+                <outlet property="mesecStari" destination="12" id="17"/>
+                <outlet property="postLabel" destination="36" id="37"/>
+                <outlet property="satLabel" destination="I9C-Td-GHT" id="1A4-59-ttd"/>
+                <outlet property="stariDatum" destination="11" id="18"/>
+                <outlet property="view" destination="3" id="6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="3">
+            <rect key="frame" x="0.0" y="44" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="left" text="2000" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="4">
+                    <rect key="frame" x="196" y="22" width="32" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.60000002384185813" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24:33:59" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I9C-Td-GHT">
+                    <rect key="frame" x="220" y="373" width="78" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="20"/>
+                    <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="30" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="7">
+                    <rect key="frame" x="128" y="14" width="63" height="66"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="56"/>
+                    <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" text="Oktobar" lineBreakMode="tailTruncation" minimumFontSize="15" id="8">
+                    <rect key="frame" x="195" y="40" width="117" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Ponedeljak" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="9">
+                    <rect key="frame" x="21" y="71" width="277" height="47"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="28"/>
+                    <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="left" text="2000" lineBreakMode="tailTruncation" minimumFontSize="10" id="10">
+                    <rect key="frame" x="64" y="361" width="27" height="15"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="39" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="11">
+                    <rect key="frame" x="20" y="357" width="42" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="37"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" text="Oktobar" lineBreakMode="tailTruncation" minimumFontSize="10" id="12">
+                    <rect key="frame" x="64" y="372" width="164" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Pantokrator.png" id="22">
+                    <rect key="frame" x="68" y="128" width="184" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Свети пророк Данил и три отрока: Ананије, Азарије и МисаилСвети пророк Данил и три отрока: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" id="23">
+                    <rect key="frame" x="20" y="251" width="278" height="77"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Post" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="36">
+                    <rect key="frame" x="21" y="332" width="277" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="47" appends="YES" id="48"/>
+                <outletCollection property="gestureRecognizers" destination="53" appends="YES" id="54"/>
+                <outletCollection property="gestureRecognizers" destination="56" appends="YES" id="57"/>
+            </connections>
+        </view>
+        <swipeGestureRecognizer direction="left" id="47">
+            <connections>
+                <action selector="sdesnaNaLevo:" destination="-1" id="49"/>
+            </connections>
+        </swipeGestureRecognizer>
+        <swipeGestureRecognizer direction="right" id="53">
+            <connections>
+                <action selector="slevaNaDesno:" destination="-1" id="55"/>
+            </connections>
+        </swipeGestureRecognizer>
+        <tapGestureRecognizer numberOfTapsRequired="2" id="56">
+            <connections>
+                <action selector="vratiNulu:" destination="-1" id="58"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="Pantokrator.png" width="82" height="120"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
