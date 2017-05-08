@@ -147,7 +147,7 @@
     
     FebruarCell *cell =(FebruarCell *) [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-            //cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+           
         [[NSBundle mainBundle] loadNibNamed:@"JanuarCell" owner:self options:nil];
         
         cell=self.januarskiCell;
@@ -158,10 +158,10 @@
     
 
     
-    cell.ikona.image = [UIImage imageNamed:(self.ikoneVelikeDict)[[NSString stringWithFormat:@"%i",indexPath.row + 1]]];
-    cell.svetac.text = (self.svetciDict)[[NSString stringWithFormat:@"%li",indexPath.row + 1]];
+    cell.ikona.image = [UIImage imageNamed:(self.ikoneVelikeDict)[[NSString stringWithFormat:@"%i",(int)indexPath.row + 1]]];
+    cell.svetac.text = (self.svetciDict)[[NSString stringWithFormat:@"%i",(int)indexPath.row + 1]];
     
-    cell.noviDatum.text = [NSString stringWithFormat:@"%d.",indexPath.row +1];
+    cell.noviDatum.text = [NSString stringWithFormat:@"%d.",(int)indexPath.row +1];
     cell.danUNedelji.text = self.title;
     return cell;
 }
@@ -172,19 +172,19 @@
 {
     
     DnevniKalendar *dnevniKalendar = [[DnevniKalendar alloc] initWithNibName:@"DnevniKalendar" bundle:nil];
-    dnevniKalendar.title = [NSString stringWithFormat:@"%li. јануар",indexPath.row + 1];
+    dnevniKalendar.title = [NSString stringWithFormat:@"%i. јануар",(int)indexPath.row + 1];
     
-    dnevniKalendar.svetac = (self.svetciDict)[[NSString stringWithFormat:@"%li",indexPath.row + 1]];
+    dnevniKalendar.svetac = (self.svetciDict)[[NSString stringWithFormat:@"%i",(int)indexPath.row + 1]];
     
     [self loadZitija];
     
-    dnevniKalendar.zitijeSvecaStringa = (self.zitijaDict)[[NSString stringWithFormat:@"%li",indexPath.row +1]];
+    dnevniKalendar.zitijeSvecaStringa = (self.zitijaDict)[[NSString stringWithFormat:@"%i",(int)indexPath.row +1]];
     
     /*******************  IKONA DNEVNI KALENDAR   ************************/
     
     [self loadIkoneVelike:indexPath.row];
     
-    dnevniKalendar.ikonaa = [UIImage imageNamed:(self.ikoneVelikeDict)[[NSString stringWithFormat:@"%li",indexPath.row + 1]]];
+    dnevniKalendar.ikonaa = [UIImage imageNamed:(self.ikoneVelikeDict)[[NSString stringWithFormat:@"%i",(int)indexPath.row + 1]]];
     
     /*******************  IKONA DNEVNI KALENDAR   ************************/
     

@@ -190,11 +190,7 @@ int glob = 1;
     NSString *strr=nil;
     NSCalendar *cc = [[NSCalendar alloc]initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     cc.firstWeekday = 1;
-//    [cc setTimeZone:[NSTimeZone timeZoneWithName:@"Europe/Rome"]];
-//    NSDateComponents *komps = [[NSDateComponents alloc]init];
-//    [komps setTimeZone:[NSTimeZone timeZoneWithName:@"Europe/Rome"]];
-//
-//    self.sada = [ cc dateByAddingComponents:komps toDate:[NSDate date] options:0];
+
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
     dateFormat.calendar = cc;
     dateFormat.dateFormat = @"ee";
@@ -314,6 +310,7 @@ int glob = 1;
     StariNoviKalendar *sekunda= [[[StariNoviKalendar alloc]init] autorelease];
 
     NSString *str = [NSString stringWithFormat:@"%@:%@:%@",sekunda.sati, sekunda.minuti,sekunda.sekundara];
+
 
     (self.satLabel).text = str;
     

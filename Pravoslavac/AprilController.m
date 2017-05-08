@@ -128,72 +128,19 @@
 
     NSString *path = [[NSBundle mainBundle] pathForResource:@"ikone" ofType:@"plist"];
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
-    cell.ikona.image = [UIImage imageNamed:dict[[NSString stringWithFormat:@"%li",indexPath.row+92]]];
+    cell.ikona.image = [UIImage imageNamed:dict[[NSString stringWithFormat:@"%i",(int)indexPath.row+92]]];
 
     cell.svetac.text = (self.spisakSvetacaZaApril)[indexPath.row];
     // Configure
 
-    cell.noviDatum.text = [NSString stringWithFormat:@"%ld.",indexPath.row +1];
+    cell.noviDatum.text = [NSString stringWithFormat:@"%i.",(int)indexPath.row +1];
     cell.danUNedelji.text = self.title;
     return cell;
 
-//    cell.textLabel.textColor = [UIColor whiteColor];
-//    cell.detailTextLabel.textColor = [UIColor groupTableViewBackgroundColor];
-//    cell.textLabel.text = [self.spisakSvetacaZaApril objectAtIndex:indexPath.row];
-//    cell.detailTextLabel.text = [NSString stringWithFormat:@"%i. април",indexPath.row+1];
-//   
-//    /************************ IKONE  ZA TABLE VIEW MALE 57px ****************************/
-//    
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"ikone57px" ofType:@"plist"];
-//    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
-//    cell.imageView.image = [UIImage imageNamed:[dict objectForKey:[NSString stringWithFormat:@"%i",indexPath.row+92]]];
-// 
-//    
-//    /************************ IKONE  ZA TABLE VIEW MALE 57px ****************************/
-//    
-//    
-//    
-//    return cell;
+
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 #pragma mark - Table view delegate
 
@@ -208,7 +155,7 @@
      [detailViewController release];
      */
     DnevniKalendar *dnevniKalendar = [[DnevniKalendar alloc] initWithNibName:@"DnevniKalendar" bundle:nil];
-    dnevniKalendar.title = [NSString stringWithFormat:@"%li. април",indexPath.row + 1];
+    dnevniKalendar.title = [NSString stringWithFormat:@"%i. април",(int)indexPath.row + 1];
         // dnevniKalendar.imeSceca.text = [self.spisakSvetacaZaJanuar objectAtIndex:indexPath.row];
     dnevniKalendar.svetac = (self.spisakSvetacaZaApril)[indexPath.row];
     dnevniKalendar.zitijeSvecaStringa = (self.spisakZitijaZaApril)[indexPath.row];
@@ -218,7 +165,7 @@
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"ikone" ofType:@"plist"];
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
-    dnevniKalendar.ikonaa = [UIImage imageNamed:dict[[NSString stringWithFormat:@"%li",indexPath.row+92]]];
+    dnevniKalendar.ikonaa = [UIImage imageNamed:dict[[NSString stringWithFormat:@"%i",(int)indexPath.row+92]]];
 
     
     

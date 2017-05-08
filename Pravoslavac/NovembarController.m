@@ -124,10 +124,10 @@
 
     NSString *path = [[NSBundle mainBundle] pathForResource:@"ikone" ofType:@"plist"];
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
-    cell.ikona.image = [UIImage imageNamed:dict[[NSString stringWithFormat:@"%i",indexPath.row+306]]];
+    cell.ikona.image = [UIImage imageNamed:dict[[NSString stringWithFormat:@"%i",(int)indexPath.row+306]]];
 
     cell.svetac.text = (self.spisakSvetacaZaNovembar)[indexPath.row];
-    cell.noviDatum.text = [NSString stringWithFormat:@"%ld.",indexPath.row +1];
+    cell.noviDatum.text = [NSString stringWithFormat:@"%i.",(int)indexPath.row +1];
     cell.danUNedelji.text = self.title;
     return cell;
 }
@@ -207,7 +207,7 @@
     
     
     DnevniKalendar *dnevniKalendar = [[DnevniKalendar alloc] initWithNibName:@"DnevniKalendar" bundle:nil];
-    dnevniKalendar.title = [NSString stringWithFormat:@"%li. новембар",indexPath.row + 1];
+    dnevniKalendar.title = [NSString stringWithFormat:@"%i. новембар",(int)indexPath.row + 1];
         // dnevniKalendar.imeSceca.text = [self.spisakSvetacaZaJanuar objectAtIndex:indexPath.row];
     dnevniKalendar.svetac = (self.spisakSvetacaZaNovembar)[indexPath.row];
     dnevniKalendar.zitijeSvecaStringa = (self.spisakZitijaZaNovembar)[indexPath.row];
@@ -216,7 +216,7 @@
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"ikone" ofType:@"plist"];
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
-    dnevniKalendar.ikonaa = [UIImage imageNamed:dict[[NSString stringWithFormat:@"%li",indexPath.row+306]]];
+    dnevniKalendar.ikonaa = [UIImage imageNamed:dict[[NSString stringWithFormat:@"%i",(int)indexPath.row+306]]];
     
     /*******************  IKONA DNEVNI KALENDAR   ************************/
 

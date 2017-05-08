@@ -9,23 +9,13 @@
 #import "DnevniKalendar.h"
 
 @implementation DnevniKalendar
-//@synthesize imeSceca= _imeSceca;
-//@synthesize svetac = _svetac;
-//@synthesize zitijeSveca = _zitijeSveca;
-//@synthesize zitijeSvecaStringa = _zitijeSvecaStringa;
-//@synthesize ikonaSveca = _ikonaSveca;
-//@synthesize ikonaa = _ikonaa;
-//@synthesize bojaTextaSveca = _bojaTextaSveca;
+
 
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
-        //[self.imeSceca setText:self.svetac];
-        //[self.zitijeSveca setText:self.zitijeSvecaStringa];
-        //[self.ikonaSveca setImage:self.ikonaa];
-        //self.bojaTextaSveca = [UIColor  whiteColor];
+
         self.bojaTextaSveca = [UIColor colorWithRed:1.000 green:0.800 blue:0.400 alpha:1.000];
         self.imeSceca.font = [UIFont boldSystemFontOfSize:18.0f];
     }
@@ -51,7 +41,6 @@
     (self.imeSceca).text = self.svetac;
     (self.zitijeSveca).text = self.zitijeSvecaStringa;
     (self.ikonaSveca).image = self.ikonaa;
-        //self.imeSceca.textColor = [UIColor colorWithRed:1.000 green:0.800 blue:0.400 alpha:1.000];
     
     (self.imeSceca).textColor = self.bojaTextaSveca;
   

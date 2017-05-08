@@ -15,16 +15,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-//        NSRunLoop *runLoop = [NSRunLoop currentRunLoop];
-//        NSTimer *stariDan = [[NSTimer scheduledTimerWithTimeInterval:60.0 
-//                                                              target:self 
-//                                                            selector:@selector(danUNedeljiPoStaromKalendaru:) 
-//                                                            userInfo:nil 
-//                                                             repeats:YES] retain];
-//        
-//        [runLoop addTimer:stariDan forMode:NSDefaultRunLoopMode];
-//        
-//        [stariDan release];
+
     }         
     return self;
 }

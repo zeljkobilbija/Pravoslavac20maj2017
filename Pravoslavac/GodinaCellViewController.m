@@ -9,8 +9,7 @@
 #import "GodinaCellViewController.h"
 
 @implementation GodinaCellViewController
-//@synthesize mesec=_multiple;
-//@synthesize ikona=_ikona;
+
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

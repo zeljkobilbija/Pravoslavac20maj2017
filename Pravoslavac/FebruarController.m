@@ -183,7 +183,6 @@
 
     JanuarCell *cell =(JanuarCell *) [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-            //cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
         [[NSBundle mainBundle] loadNibNamed:@"JanuarCell" owner:self options:nil];
 
         cell=self.januarskiCell;
@@ -198,96 +197,25 @@
 
 
     
-    
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-//        //JanuarCell *cell =(JanuarCell *) [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-//    if (cell == nil) {
-//        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
-//    }
 
-        // NSString *februarskiSveciPath = [[NSBundle mainBundle] pathForResource:@"SpisakSvetacaZaFebruar" ofType:@"plist"];
-        // NSDictionary    *spisakSvetacaZaFebruar = [NSDictionary dictionaryWithContentsOfFile:februarskiSveciPath];
-
-    // Configure the cell...
     cell.textLabel.textColor = [UIColor whiteColor];
-    //cell.detailTextLabel.textColor = [UIColor groupTableViewBackgroundColor];
-        //cell.textLabel.text = [self.spisakSvetacaZaFebruar objectAtIndex:indexPath.row];
-    
-        //[NSThread detachNewThreadSelector:@selector(loadSvetitelje) toTarget:self withObject:nil];
-    
-    
-//    cell.textLabel.text = [spisakSvetacaZaFebruar objectForKey:[NSString stringWithFormat:@"%i",indexPath.row+1]];
-//    
-//
-//    
-//    
-//        cell.detailTextLabel.text = [NSString stringWithFormat:@"%i. фебруар",indexPath.row+1];
 
-    
-    /************************ IKONE  ZA TABLE VIEW MALE 57px ****************************/
-    
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"ikone57px" ofType:@"plist"];
-//    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
-    
-        //[NSThread detachNewThreadSelector:@selector(loadIkone) toTarget:self withObject:nil];
-    
-    
-        //[self loadIkone];
     
     
 
 
     /************************ IKONE  ZA TABLE VIEW MALE 57px ****************************/
 
-    cell.ikona.image = [UIImage imageNamed:(self.spisakIkonaVelikihDict)[[NSString stringWithFormat:@"%i",indexPath.row + 32]]];
-    cell.svetac.text = (self.spisakSvetacaDict)[[NSString stringWithFormat:@"%i",indexPath.row + 1]];
+    cell.ikona.image = [UIImage imageNamed:(self.spisakIkonaVelikihDict)[[NSString stringWithFormat:@"%i",(int)indexPath.row + 32]]];
+    cell.svetac.text = (self.spisakSvetacaDict)[[NSString stringWithFormat:@"%i",(int)indexPath.row + 1]];
 
-        //cell.noviDatum.text = [NSString stringWithFormat:@"%d",indexPath.row +1];
-//    cell.imageView.image = [UIImage imageNamed:[self.dict objectForKey:[NSString stringWithFormat:@"%i",indexPath.row+32]]];
-    cell.noviDatum.text = [NSString stringWithFormat:@"%ld.",indexPath.row +1];
+    cell.noviDatum.text = [NSString stringWithFormat:@"%i.",(int)indexPath.row +1];
     cell.danUNedelji.text = self.title;
 
     return cell;
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 #pragma mark - Table view delegate
 
@@ -311,19 +239,19 @@
 
 
     DnevniKalendar *dnevniKalendar = [[DnevniKalendar alloc] initWithNibName:@"DnevniKalendar" bundle:nil];
-    dnevniKalendar.title = [NSString stringWithFormat:@"%li. фебруар",indexPath.row + 1];
+    dnevniKalendar.title = [NSString stringWithFormat:@"%i. фебруар",(int)indexPath.row + 1];
 
-    dnevniKalendar.svetac = (self.spisakSvetacaDict)[[NSString stringWithFormat:@"%li",indexPath.row + 1]];
+    dnevniKalendar.svetac = (self.spisakSvetacaDict)[[NSString stringWithFormat:@"%i",(int)indexPath.row + 1]];
 
     [self loadZitija];
 
-    dnevniKalendar.zitijeSvecaStringa = (self.spisakZitijaDict)[[NSString stringWithFormat:@"%li",indexPath.row +1]];
+    dnevniKalendar.zitijeSvecaStringa = (self.spisakZitijaDict)[[NSString stringWithFormat:@"%i",(int)indexPath.row +1]];
 
     /*******************  IKONA DNEVNI KALENDAR   ************************/
 
     [self loadIkoneVelike];
 
-    dnevniKalendar.ikonaa = [UIImage imageNamed:(self.spisakIkonaVelikihDict)[[NSString stringWithFormat:@"%li",indexPath.row + 32]]];
+    dnevniKalendar.ikonaa = [UIImage imageNamed:(self.spisakIkonaVelikihDict)[[NSString stringWithFormat:@"%i",(int)indexPath.row + 32]]];
 
     /*******************  IKONA DNEVNI KALENDAR   ************************/
 

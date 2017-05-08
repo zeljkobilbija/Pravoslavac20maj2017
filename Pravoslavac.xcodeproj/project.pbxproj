@@ -460,14 +460,9 @@
 		02E40E051497E3CA0014B0D6 /* 366.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E40C971497E3CA0014B0D6 /* 366.png */; };
 		02E40E081497E3DD0014B0D6 /* ikone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02E40E071497E3DD0014B0D6 /* ikone.plist */; };
 		02F6D2D514917D1100450191 /* Pantokrator.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F6D2D414917D1100450191 /* Pantokrator.png */; };
-		520747F817AD970800E21CE6 /* 512x512 copia 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 520747F717AD970800E21CE6 /* 512x512 copia 3.png */; };
-		521212EB17AD8A71007CECEC /* 512x512 copia.png in Resources */ = {isa = PBXBuildFile; fileRef = 521212EA17AD8A71007CECEC /* 512x512 copia.png */; };
-		521212ED17AD93A1007CECEC /* 512x512 copia 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 521212EC17AD93A1007CECEC /* 512x512 copia 2.png */; };
 		5232FBB31875FC69006EBB4C /* SveciZaPrestupnuGodinu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5232FBB21875FC69006EBB4C /* SveciZaPrestupnuGodinu.plist */; };
-		524DFC2817EEE81E0092AB2B /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 524DFC2717EEE81E0092AB2B /* 120x120.png */; };
 		525494BE1797B37A008E3B6A /* ProstaGodina.plist in Resources */ = {isa = PBXBuildFile; fileRef = 525494BD1797B37A008E3B6A /* ProstaGodina.plist */; };
 		52645B52182CFAD6004255CC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52645B51182CFAD6004255CC /* Default@2x.png */; };
-		52929C5D17AFB32200BF2099 /* ccc.png in Resources */ = {isa = PBXBuildFile; fileRef = 52929C5C17AFB32200BF2099 /* ccc.png */; };
 		529F5D2F1797695000053427 /* PrestupnaGodina.plist in Resources */ = {isa = PBXBuildFile; fileRef = 529F5D2E1797695000053427 /* PrestupnaGodina.plist */; };
 		52B0C166179076D600E5063C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 022979E8162EDEEC00612F63 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
@@ -954,14 +949,9 @@
 		02E40C971497E3CA0014B0D6 /* 366.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 366.png; sourceTree = "<group>"; };
 		02E40E071497E3DD0014B0D6 /* ikone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ikone.plist; sourceTree = "<group>"; };
 		02F6D2D414917D1100450191 /* Pantokrator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pantokrator.png; sourceTree = "<group>"; };
-		520747F717AD970800E21CE6 /* 512x512 copia 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "512x512 copia 3.png"; sourceTree = "<group>"; };
-		521212EA17AD8A71007CECEC /* 512x512 copia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "512x512 copia.png"; sourceTree = "<group>"; };
-		521212EC17AD93A1007CECEC /* 512x512 copia 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "512x512 copia 2.png"; sourceTree = "<group>"; };
 		5232FBB21875FC69006EBB4C /* SveciZaPrestupnuGodinu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SveciZaPrestupnuGodinu.plist; sourceTree = "<group>"; };
-		524DFC2717EEE81E0092AB2B /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
 		525494BD1797B37A008E3B6A /* ProstaGodina.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ProstaGodina.plist; path = ../ProstaGodina.plist; sourceTree = "<group>"; };
 		52645B51182CFAD6004255CC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		52929C5C17AFB32200BF2099 /* ccc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccc.png; sourceTree = "<group>"; };
 		529F5D2E1797695000053427 /* PrestupnaGodina.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrestupnaGodina.plist; path = ../PrestupnaGodina.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -982,11 +972,6 @@
 		020868F114916C1800FA8FFB = {
 			isa = PBXGroup;
 			children = (
-				524DFC2717EEE81E0092AB2B /* 120x120.png */,
-				52929C5C17AFB32200BF2099 /* ccc.png */,
-				520747F717AD970800E21CE6 /* 512x512 copia 3.png */,
-				521212EC17AD93A1007CECEC /* 512x512 copia 2.png */,
-				521212EA17AD8A71007CECEC /* 512x512 copia.png */,
 				0234619014F36FD4007FB36A /* CoreImage.framework */,
 				02885A2414916E3E00368FB2 /* Resources */,
 				0208690614916C1900FA8FFB /* Pravoslavac */,
@@ -1797,7 +1782,6 @@
 				02E40CA21497E3CA0014B0D6 /* 11.png in Resources */,
 				02E40CA31497E3CA0014B0D6 /* 12.png in Resources */,
 				02E40CA41497E3CA0014B0D6 /* 13.png in Resources */,
-				524DFC2817EEE81E0092AB2B /* 120x120.png in Resources */,
 				02E40CA51497E3CA0014B0D6 /* 14.png in Resources */,
 				02E40CA61497E3CA0014B0D6 /* 15.png in Resources */,
 				02E40CA71497E3CA0014B0D6 /* 16.png in Resources */,
@@ -2195,10 +2179,6 @@
 				52B0C166179076D600E5063C /* Default-568h@2x.png in Resources */,
 				529F5D2F1797695000053427 /* PrestupnaGodina.plist in Resources */,
 				525494BE1797B37A008E3B6A /* ProstaGodina.plist in Resources */,
-				521212EB17AD8A71007CECEC /* 512x512 copia.png in Resources */,
-				521212ED17AD93A1007CECEC /* 512x512 copia 2.png in Resources */,
-				520747F817AD970800E21CE6 /* 512x512 copia 3.png in Resources */,
-				52929C5D17AFB32200BF2099 /* ccc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
