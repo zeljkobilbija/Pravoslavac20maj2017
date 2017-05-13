@@ -13,7 +13,6 @@
 		0208690B14916C1900FA8FFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0208690914916C1900FA8FFB /* InfoPlist.strings */; };
 		0208690D14916C1900FA8FFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0208690C14916C1900FA8FFB /* main.m */; };
 		0208691114916C1900FA8FFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0208691014916C1900FA8FFB /* AppDelegate.m */; };
-		0208691814916C8F00FA8FFB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0208691714916C8F00FA8FFB /* icon.png */; };
 		0208691D14916CD500FA8FFB /* GodisnjiKalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0208691B14916CD500FA8FFB /* GodisnjiKalendar.m */; };
 		0208691E14916CD500FA8FFB /* GodisnjiKalendar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0208691C14916CD500FA8FFB /* GodisnjiKalendar.xib */; };
 		0208692614916DAA00FA8FFB /* Mesecnikalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0208692414916DAA00FA8FFB /* Mesecnikalendar.m */; };
@@ -51,7 +50,6 @@
 		022416FA14BE31DD00BACEDB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 022416F814BE31DD00BACEDB /* Localizable.strings */; };
 		0226BA8C14A7182C006198D2 /* FebruarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0226BA8B14A7182C006198D2 /* FebruarCell.m */; };
 		024778E5149BE1D5008E57B9 /* ikone57px.plist in Resources */ = {isa = PBXBuildFile; fileRef = 024778E4149BE1D5008E57B9 /* ikone57px.plist */; };
-		024B1F501497383D0092DEC0 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 024B1F4F1497383D0092DEC0 /* icon@2x.png */; };
 		024B419B15AC301F00DFD835 /* FebruarCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 024B419A15AC301F00DFD835 /* FebruarCell2.xib */; };
 		024B419E15AC304500DFD835 /* FebruarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 024B419D15AC304500DFD835 /* FebruarCell.xib */; };
 		0254A0111496A8EE00391376 /* SveciZaProstuGodinu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0254A00F1496A8EE00391376 /* SveciZaProstuGodinu.plist */; };
@@ -84,6 +82,8 @@
 		02885A32149171A000368FB2 /* StariNoviKalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885A2E149171A000368FB2 /* StariNoviKalendar.m */; };
 		02885A33149171A000368FB2 /* VievController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02885A2F149171A000368FB2 /* VievController.xib */; };
 		02885A34149171A000368FB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885A31149171A000368FB2 /* ViewController.m */; };
+		0292CAE31EC7CA4900A14923 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0292CAE21EC7CA4900A14923 /* icon@2x.png */; };
+		0292CAE51EC7CAA000A14923 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0292CAE41EC7CAA000A14923 /* icon.png */; };
 		029E7F2A14A4633C0096A309 /* GodinaCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E7F2914A4633C0096A309 /* GodinaCellViewController.m */; };
 		029E7F2C14A463600096A309 /* GodinaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029E7F2B14A463600096A309 /* GodinaCell.xib */; };
 		02D7E64C149970DC0086C9E2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D7E64B149970DC0086C9E2 /* Default.png */; };
@@ -478,7 +478,6 @@
 		0208690E14916C1900FA8FFB /* Pravoslavac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pravoslavac-Prefix.pch"; sourceTree = "<group>"; };
 		0208690F14916C1900FA8FFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0208691014916C1900FA8FFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0208691714916C8F00FA8FFB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		0208691A14916CD500FA8FFB /* GodisnjiKalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GodisnjiKalendar.h; sourceTree = "<group>"; };
 		0208691B14916CD500FA8FFB /* GodisnjiKalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GodisnjiKalendar.m; sourceTree = "<group>"; };
 		0208691C14916CD500FA8FFB /* GodisnjiKalendar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GodisnjiKalendar.xib; sourceTree = "<group>"; };
@@ -524,7 +523,6 @@
 		022979E8162EDEEC00612F63 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0234619014F36FD4007FB36A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		024778E4149BE1D5008E57B9 /* ikone57px.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ikone57px.plist; sourceTree = "<group>"; };
-		024B1F4F1497383D0092DEC0 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		024B419A15AC301F00DFD835 /* FebruarCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FebruarCell2.xib; sourceTree = "<group>"; };
 		024B419D15AC304500DFD835 /* FebruarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FebruarCell.xib; sourceTree = "<group>"; };
 		0254A00F1496A8EE00391376 /* SveciZaProstuGodinu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SveciZaProstuGodinu.plist; sourceTree = "<group>"; };
@@ -570,6 +568,8 @@
 		02885A2F149171A000368FB2 /* VievController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VievController.xib; sourceTree = "<group>"; };
 		02885A30149171A000368FB2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		02885A31149171A000368FB2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0292CAE21EC7CA4900A14923 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		0292CAE41EC7CAA000A14923 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		029E7F2814A4633C0096A309 /* GodinaCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GodinaCellViewController.h; sourceTree = "<group>"; };
 		029E7F2914A4633C0096A309 /* GodinaCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GodinaCellViewController.m; sourceTree = "<group>"; };
 		029E7F2B14A463600096A309 /* GodinaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GodinaCell.xib; sourceTree = "<group>"; };
@@ -1216,7 +1216,7 @@
 				020B51B71499EC25000C4E4C /* person.png */,
 				020B51B51499EB12000C4E4C /* krst4.png */,
 				020B51B31499E8E3000C4E4C /* nikaBeli.png */,
-				024B1F4F1497383D0092DEC0 /* icon@2x.png */,
+				0292CAE21EC7CA4900A14923 /* icon@2x.png */,
 				021C5AF014A6937900AAA5DD /* SpisakSvetacaZaApril.plist */,
 				021C5AF114A6937900AAA5DD /* SpisakSvetacaZaMaj.plist */,
 				021C5AF214A6937900AAA5DD /* SpisakSvetacaZaMart.plist */,
@@ -1247,7 +1247,7 @@
 				0254A00F1496A8EE00391376 /* SveciZaProstuGodinu.plist */,
 				5232FBB21875FC69006EBB4C /* SveciZaPrestupnuGodinu.plist */,
 				02F6D2D414917D1100450191 /* Pantokrator.png */,
-				0208691714916C8F00FA8FFB /* icon.png */,
+				0292CAE41EC7CAA000A14923 /* icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1748,7 +1748,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0208690B14916C1900FA8FFB /* InfoPlist.strings in Resources */,
-				0208691814916C8F00FA8FFB /* icon.png in Resources */,
 				0208691E14916CD500FA8FFB /* GodisnjiKalendar.xib in Resources */,
 				0208692714916DAA00FA8FFB /* Mesecnikalendar.xib in Resources */,
 				0208692D14916DD900FA8FFB /* DnevniKalendar.xib in Resources */,
@@ -1768,7 +1767,6 @@
 				02770EB51492D36400028E37 /* OktobarController.xib in Resources */,
 				02770EBA1492D39500028E37 /* SeptembarController.xib in Resources */,
 				0254A0111496A8EE00391376 /* SveciZaProstuGodinu.plist in Resources */,
-				024B1F501497383D0092DEC0 /* icon@2x.png in Resources */,
 				02E40C981497E3CA0014B0D6 /* 1.png in Resources */,
 				02E40C991497E3CA0014B0D6 /* 2.png in Resources */,
 				02E40C9A1497E3CA0014B0D6 /* 3.png in Resources */,
@@ -1909,9 +1907,11 @@
 				02E40D201497E3CA0014B0D6 /* 137.png in Resources */,
 				02E40D211497E3CA0014B0D6 /* 138.png in Resources */,
 				02E40D221497E3CA0014B0D6 /* 139.png in Resources */,
+				0292CAE31EC7CA4900A14923 /* icon@2x.png in Resources */,
 				02E40D231497E3CA0014B0D6 /* 140.png in Resources */,
 				02E40D241497E3CA0014B0D6 /* 141.png in Resources */,
 				02E40D251497E3CA0014B0D6 /* 142.png in Resources */,
+				0292CAE51EC7CAA000A14923 /* icon.png in Resources */,
 				02E40D261497E3CA0014B0D6 /* 143.png in Resources */,
 				02E40D271497E3CA0014B0D6 /* 144.png in Resources */,
 				02E40D281497E3CA0014B0D6 /* 145.png in Resources */,
