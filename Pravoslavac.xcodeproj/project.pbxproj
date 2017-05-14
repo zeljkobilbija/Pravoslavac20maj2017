@@ -84,6 +84,8 @@
 		02885A34149171A000368FB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02885A31149171A000368FB2 /* ViewController.m */; };
 		0292CAE31EC7CA4900A14923 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0292CAE21EC7CA4900A14923 /* icon@2x.png */; };
 		0292CAE51EC7CAA000A14923 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0292CAE41EC7CAA000A14923 /* icon.png */; };
+		0292CAE81EC7D05800A14923 /* 512x512 copia 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0292CAE61EC7D05800A14923 /* 512x512 copia 3.png */; };
+		0292CAE91EC7D05800A14923 /* 512x512 copia.png in Resources */ = {isa = PBXBuildFile; fileRef = 0292CAE71EC7D05800A14923 /* 512x512 copia.png */; };
 		029E7F2A14A4633C0096A309 /* GodinaCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E7F2914A4633C0096A309 /* GodinaCellViewController.m */; };
 		029E7F2C14A463600096A309 /* GodinaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029E7F2B14A463600096A309 /* GodinaCell.xib */; };
 		02D7E64C149970DC0086C9E2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D7E64B149970DC0086C9E2 /* Default.png */; };
@@ -570,6 +572,8 @@
 		02885A31149171A000368FB2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0292CAE21EC7CA4900A14923 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		0292CAE41EC7CAA000A14923 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0292CAE61EC7D05800A14923 /* 512x512 copia 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "512x512 copia 3.png"; sourceTree = "<group>"; };
+		0292CAE71EC7D05800A14923 /* 512x512 copia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "512x512 copia.png"; sourceTree = "<group>"; };
 		029E7F2814A4633C0096A309 /* GodinaCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GodinaCellViewController.h; sourceTree = "<group>"; };
 		029E7F2914A4633C0096A309 /* GodinaCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GodinaCellViewController.m; sourceTree = "<group>"; };
 		029E7F2B14A463600096A309 /* GodinaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GodinaCell.xib; sourceTree = "<group>"; };
@@ -1234,6 +1238,8 @@
 				021C5AFE14A6937B00AAA5DD /* SpisakZitijaZaJanuar.plist */,
 				021C5AFF14A6937B00AAA5DD /* SpisakZitijaZaJul.plist */,
 				021C5B0014A6937B00AAA5DD /* SpisakZitijaZaJun.plist */,
+				0292CAE61EC7D05800A14923 /* 512x512 copia 3.png */,
+				0292CAE71EC7D05800A14923 /* 512x512 copia.png */,
 				021C5B0114A6937B00AAA5DD /* SpisakZitijaZaMaj.plist */,
 				021C5B0214A6937B00AAA5DD /* SpisakZitijaZaMart.plist */,
 				021C5B0314A6937B00AAA5DD /* SpisakZitijaZaNovembar.plist */,
@@ -1907,6 +1913,7 @@
 				02E40D201497E3CA0014B0D6 /* 137.png in Resources */,
 				02E40D211497E3CA0014B0D6 /* 138.png in Resources */,
 				02E40D221497E3CA0014B0D6 /* 139.png in Resources */,
+				0292CAE81EC7D05800A14923 /* 512x512 copia 3.png in Resources */,
 				0292CAE31EC7CA4900A14923 /* icon@2x.png in Resources */,
 				02E40D231497E3CA0014B0D6 /* 140.png in Resources */,
 				02E40D241497E3CA0014B0D6 /* 141.png in Resources */,
@@ -1996,6 +2003,7 @@
 				02E40D761497E3CA0014B0D6 /* 223.png in Resources */,
 				02E40D771497E3CA0014B0D6 /* 224.png in Resources */,
 				02E40D781497E3CA0014B0D6 /* 225.png in Resources */,
+				0292CAE91EC7D05800A14923 /* 512x512 copia.png in Resources */,
 				02E40D791497E3CA0014B0D6 /* 226.png in Resources */,
 				02E40D7A1497E3CA0014B0D6 /* 227.png in Resources */,
 				02E40D7B1497E3CA0014B0D6 /* 228.png in Resources */,
