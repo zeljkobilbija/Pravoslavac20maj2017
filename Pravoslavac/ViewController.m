@@ -54,10 +54,45 @@ int glob = 1;
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         [self setUp];
+        
+        
+        NSDate *sada = [NSDate date];
+        NSCalendar *calendar = [NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian];
+        calendar.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0];
+        NSDateFormatter *df = [[NSDateFormatter alloc] init];
+        [df setDateFormat:@"yyyy" ];
+        NSString *novi = [df stringFromDate:sada];
+        
+        int godina = novi.intValue;
+        
+        
+        if ((godina%4 == 0 && godina%100 != 0)  || godina%400 == 0) {
+            
+            NSString *path = [[NSBundle mainBundle]pathForResource:@"PrestupnaGodina" ofType:@"plist"];
+            self.main = [NSArray arrayWithContentsOfFile:path];
+            
+            
+        }
 
-        NSString *path = [[NSBundle mainBundle]pathForResource:@"PrestupnaGodina" ofType:@"plist"];
+        
+        
+        
+        else{
+        
+
+        NSString *path = [[NSBundle mainBundle]pathForResource:@"ProstaGodina" ofType:@"plist"];
         self.main = [NSArray arrayWithContentsOfFile:path];
+        
+        }
+        
+        [df release];
+        
+        
+        
+        
     }
+    
+    
     return self;
 }
 
@@ -152,16 +187,16 @@ int glob = 1;
     self.danasnjiSvetac.text = svetitelj[@"svetitelj"];
 
 
-    NSDateFormatter *brojGodine = [[[NSDateFormatter alloc] init]autorelease];
+    //NSDateFormatter *brojGodine = [[[NSDateFormatter alloc] init]autorelease];
 
-    int godina = [brojGodine stringFromDate:self.sada].intValue;
+    //int godina = [brojGodine stringFromDate:self.sada].intValue;
 
-    if (godina == 2012 || godina == 2016 || godina == 2020 || godina == 2024) {
-        prestupnaGodina = YES;
-    }
-    else{
-        prestupnaGodina = NO;
-    }
+//    if (godina == 2012 || godina == 2016 || godina == 2020 || godina == 2024) {
+//        prestupnaGodina = YES;
+//    }
+//    else{
+//        prestupnaGodina = NO;
+//    }
 
     NSCalendar *cal = [NSCalendar currentCalendar];
 
