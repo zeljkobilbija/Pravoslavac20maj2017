@@ -222,7 +222,7 @@ int glob = 1;
     (self.dan).text = nzivDana.capitalizedString ;
 
 
-    NSString *strr=nil;
+    //NSString *strr=nil;
     NSCalendar *cc = [[NSCalendar alloc]initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     cc.firstWeekday = 1;
 
@@ -230,14 +230,38 @@ int glob = 1;
     dateFormat.calendar = cc;
     dateFormat.dateFormat = @"ee";
 
-    strr = [dateFormat stringFromDate:self.sada];
-    int nazivDana= strr.intValue;
+    //strr = [dateFormat stringFromDate:self.sada];
+    
+    //int nazivDana= strr.intValue;
+
+    
+    NSDateComponents *comp = [cc components:NSCalendarUnitWeekday fromDate:self.sada];
+    NSInteger nazivDana= [comp weekday];
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
 
-
-    if (nazivDana == 7) {
+    if (nazivDana == 1) {
         (self.dan).textColor = [UIColor redColor];
         (self.datumNovi).textColor = [UIColor redColor];
     }else{
@@ -247,7 +271,7 @@ int glob = 1;
 
 
 
-    if (nazivDana == 3 || nazivDana == 5) {
+    if (nazivDana == 4 || nazivDana == 6) {
         self.postLabel.text = @"Пост";
     }else{
         self.postLabel.text = @"";
